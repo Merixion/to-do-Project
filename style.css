@@ -11,12 +11,15 @@ body{
 }
 
 .cycle{
+  position: absolute;
   height: 100vh;
   width: 100vh;
   border: 2px solid black;
   border-radius: 50%; 
   background: linear-gradient(135deg, rgb(0, 255, 102) 20%, rgb(153, 1, 255) 50%, #4d1313 100%);
   transform: translateX(-50vh);
+  z-index: -1;
+  pointer-events: none;
 }
 
 #add{
