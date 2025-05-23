@@ -1,0 +1,34 @@
+.columns{
+  display: grid;
+  grid-template-columns: repeat(3, 33vw);
+  gap: 20px;
+}
+
+
+body{
+  background: linear-gradient(265deg, #ea0707, #4d1313,hsl(117, 63%, 33%));
+  min-height: 100vh;
+}
+
+.cycle{
+  height: 100vh;
+  width: 100vh;
+  border: 2px solid black;
+  border-radius: 50%; 
+  background: linear-gradient(135deg, rgb(0, 255, 102) 20%, rgb(153, 1, 255) 50%, #4d1313 100%);
+  transform: translateX(-50vh);
+}
+
+#add{
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  z-index: 1000;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #d74747;
+}
+ 
+#add:hover{
+  background-color: #c33939;
+}
