@@ -4,6 +4,9 @@
   gap: 20px;
 }
 
+.columns div{
+  font-size: 50px;
+}
 
 body{
   background: linear-gradient(265deg, #ea0707, #4d1313,hsl(117, 63%, 33%));
@@ -39,6 +42,10 @@ body{
   border: 1px solid black;
   border-radius: 10px;
   background: #84c512;
+}
+
+.style-carts h1, p{
+  font-size: 20px;
 }
 
 .style-carts button{
