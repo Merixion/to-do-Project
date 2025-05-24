@@ -39,7 +39,7 @@ add.addEventListener('click', () => {
 	});
 	const del = div.querySelector('.del');
 	del.addEventListener('click', () => {
-		toDo.removeChild(div);
+		div.remove();
 	});
 	const red = div.querySelector('.red');
 	red.addEventListener('click', () => {
